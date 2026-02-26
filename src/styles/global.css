@@ -95,6 +95,12 @@ html.dark {
   --astro-code-token-link: rgba(255, 255, 255, 0.55);
 }
 
+/* Update theme icon */
+.dark .icon-moon {display: none;}
+.dark .icon-sun {display: block;}
+.light .icon-moon {display: block;}
+.light .icon-sun {display: none;}
+
 html {
   background-color: var(--bg);
   scroll-behavior: smooth;
